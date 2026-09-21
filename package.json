@@ -1,0 +1,28 @@
+{
+  "name": "basic1_render_connection",
+  "version": "1.0.0",
+  "description": "First steps are the most hard part for development projects. This is an easy demostration of how make a simple connection with Render server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RosanaGarciap/basic1_render_connection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RosanaGarciap/basic1_render_connection/issues"
+  },
+  "homepage": "https://github.com/RosanaGarciap/basic1_render_connection#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
