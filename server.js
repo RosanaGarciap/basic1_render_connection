@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/name', (req,res) => {
+app.get('/', (req,res) => {
     res.send('Rosana Garcia');
 })
 
