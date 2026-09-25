@@ -3,9 +3,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/', (req,res) => {
-    res.send('Rosana Garcia');
-})
+app.use('/', require('./routes') )
 
 const port = 3000;
 app.listen(process.env.port || port);
